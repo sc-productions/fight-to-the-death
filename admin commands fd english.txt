@@ -1,0 +1,68 @@
+Admin commands. Please, use them carefully.
+In the menu of F5, if you press CTRL+Z on a player, you keep invisible and you will look at the player. To stop watching, press Z. (Out from the menu).
+
+/reboot: Restarts the server.
+/invs: Enables or disables invisibility.
+/lcoisas: Analizes the things that there actually are in the server.
+/quantos nome_do_item: Verifyes how many of that item there are in the server.
+/inv nome_do_jogador playername item=quantity: gives the selected quantity of that item to the selected player.
+/setinv playername inventory of the player name: update the selected player's inventory.
+/backup: It does a backup of the accounts in the server. (Do it day by day).
+/vbackup playername: regives the inventory to the selected player.
+/vbackup2 playername_ Regives the backed up inventory to the selected player. it is the backup that he does with the command /g.
+/move playername X Y: moves the selected player to the selected coordinate. If you digit /move yourname other name, you will be teleported to the selected player.
+/ changemap player_name map coordinate_x coordinate_y: Moves the player on the map informed, in the x and y coordinates that you have placed. If you enter only the name of the map, without the coordinates, it will also work.
+/ rawdata code_map: Refresh the map where you are.
+/ delmap map_name: Deletes the map. (Not recommended).
+/ newmap max_name maximum_coordinate_x maximum_coordinate_y carpet: Creates the map informed.
+/ add_map map_name: Drops items on the map informed. (Coins and ammunition). (Not recommended).
+/ kick player_name: Kick the player informed. (In the F5 menu, pressing CTRL + E on the player will also work).
+/ getpassword player_name: Gets the player's password informed.
+/ setpassword player_name password: Sets the password of the player informed
+/ ip player_name: Gets the IP of the player informed.
+/ banned: Shows the list of banned players.
+/ clearbans: Clears the list of banned players.
+/ ban player_name: Bane the player informed. (In the F5 menu, pressing CTRL + b on the player will also work).
+/ unpin player_name: Unban the informed player.
+/ killplayer player_name: Kill the player informed. (In the F5 menu, pressing CTRL + M on the player's name will also work).
+/ pvp: Enables and disables player versos player mode.
+/ gamestop: Freezes the game.
+/ gamestart: Defrost the game.
+/ disable map_name: Freezes the map informed.
+/ activate map_name: Defrost the map informed.
+/ frame message_number: Clears the message from the library frame.
+/ frame: Clears all messages in the library frame
+/ msgpt message: Sets the message of the day for players who are in Portuguese chat.
+/ msges message: Sets the message of the day for the players who are in the Spanish chat.
+/ msgen message: Sets the message of the day to players who are chatting English.
+/ msgfr message: Sets the message of the day to players who are in French chat.
+/ npt message_file message: Sends a message to all players who are logged in to the Portuguese chat. You do not need to put the name of the sound file if you do not want to.
+/ nes message_file message: Sends a message to all players who are logged in to chat in Spanish. You do not need to put the sound file if you do not want to.
+/ nen message_file message: Sends a message to all players who are logged in to chat in English. You do not need to put the sound file if you do not want to.
+/ nfr message_file message: Sends a message to all the players who are logged in to the French chat. You do not need to put the sound file if you do not want to.
+/ present quantity_name: Sends the item informed to all online players. (Pay attention when typing the name of the item that will give players).
+/ doublexp: Enables double-xp.
+/ doublegold: Enables double-gold.
+/ ascended player_name day_month / month: Up player life reported to 25000 at given values. Example: / uploaded player 30/10
+/ discarded player_name: Puts the player's life informed to the normal 5000 standard.
+/ slave player_name: Amount of player's life entered in the reported amount.
+/ darxp player_name amount: Sends the amount of xp informed to the player informed.
+/ ncolete 5000 player name: Adds 5000 shots that the approved vest of the player's informed bullets will support.
+/ mdono player_name player_ apartment: Defines the player informed of having administration in the informed apartment
+/ mlevel player_name level: Puts the player informed at the informed level.
+/ msexo player_name 1: Sets the gender of the player informed to male. If you enter 0, the sex will be female.
+/ save: Save your account, so when administrators remove accounts from players, its not to be removed.
+/ rsalvar: Removes all accounts that did not type / save. (Do this every 6 months). (Recommended to have a meeting before).
+/ adm message: Send a message to the game administrators.
+/ nadm: Withdraw the administration until the next restart of the client.
+/ ladm: Lists the messages sent by the / adm command.
+/ aadm: Deletes the list of messages sent by the / adm command.
+/ reply player_name message: Responds the player informed.
+Challenge Commands:
+/ helicopter coordinate_x coordinate_ and map_name: Activates the war helicopter.
+/ coloc_cforte coordinate_X coordinate_Y map_name life_quantity: Places the strong car in the parameters that have been defined.
+/ cannon coordinate_x coordinate_y map_name 1000: Starts the challenge of the cannons on the map informed.
+/ CannonD: Disable the cannon challenge.
+/ add player_name: Adds the player informed in the challenge team.
+/ add player_name: Adds the player informed on the deadly team.
+/ Inhibits: Starts the challenge of capturing the flag.
